@@ -22,7 +22,7 @@
 
 To install the Matlab version of ATaCR, navigate on the command line to a path where the software will be installed
 
-- Clone the `atacr` repository ([`fork`](https://docs.github.com/en/github/getting-started-with-github/fork-a-repo) it first, if you consider contributing):
+- Clone the ATaCR repository ([`fork`](https://docs.github.com/en/github/getting-started-with-github/fork-a-repo) it first, if you consider contributing):
 
 ```bash
 git clone https://github.com/helenjanisz/ATaCR
@@ -67,7 +67,7 @@ Now you're ready to install `obstools`. There are two options: 1) you want to lo
 
 - Navigate on the command line to a path where the software will be installed
 
-- Clone the `obstools` repository ([`fork`](https://docs.github.com/en/github/getting-started-with-github/fork-a-repo) it first, if you are serious about contributing):
+- Clone the OBStools repository ([`fork`](https://docs.github.com/en/github/getting-started-with-github/fork-a-repo) it first, if you are serious about contributing):
 
 ```bash
 git clone https://github.com/paudetseis/OBStools.git
