@@ -99,13 +99,13 @@ The `DATA` folder should now be on your computer and you are ready to start the 
 
 ##### Testing your installation
 
-If you want to make sure everything is installed properly, make sure your conda environment has been activated and open a python window:
+If you want to make sure everything is installed properly, make sure your conda environment has been activated and open a python window by typing in a terminal:
 
 ```bash
 python
 ```
 
-which will produce 
+which will produce something like:
 
 ```bash
 Python 3.8.5 (default, Sep  4 2020, 02:22:02) 
@@ -114,11 +114,11 @@ Type "help", "copyright", "credits" or "license" for more information.
 >>> 
 ```
 
-Then
+Then type:
 
 ```bash
 >>> import stdb
 >>> import obstools
 ```
 
-If nothing happens, you're good to go!
+If nothing happens, you're good to go! If you run into a problem, let us know by [`raising an issue`](https://github.com/MarineSeismologySymposium/SIG-ATaCR/issues). 
