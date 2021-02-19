@@ -18,7 +18,7 @@
 
 - Git repository: [`ATaCR`](https://github.com/helenjanisz/ATaCR)
 
-Documentation can be found [`here`](https://github.com/helenjanisz/ATaCR/blob/master/ATaCR_Manual.pdf)
+- Documentation can be found [`here`](https://github.com/helenjanisz/ATaCR/blob/master/ATaCR_Manual.pdf)
 
 To install the Matlab version of ATaCR, navigate on the command line to a path where the software will be installed
 
@@ -39,7 +39,7 @@ ATaCR is implemented as a separate module in the open-source Python package OBSt
 
 - Git repository: [`OBStools`](https://github.com/nfsi-canada/OBStools)
 
-Documentation can be found [`here`](https://nfsi-canada.github.io/OBStools/)
+- Documentation can be found [`here`](https://nfsi-canada.github.io/OBStools/)
 
 To install `obstools`, we strongly recommend creating a `conda environment` where the code can be installed alongside its dependencies. This **significantly reduces** the potential conflicts in package versions. In a bash (or zsh) terminal, follow these steps:
 
