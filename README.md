@@ -28,9 +28,9 @@ ATaCR is implemented as a separate module in the open-source Python package OBSt
 
 Documentation can be found [`here`](https://nfsi-canada.github.io/OBStools/)
 
-To install `obstools`, we recommend creating a `conda environment` where the code can be installed alongside its dependencies. This **significantly reduces** the potential conflicts in package versions. 
+To install `obstools`, we strongly recommend creating a `conda environment` where the code can be installed alongside its dependencies. This **significantly reduces** the potential conflicts in package versions. In a bash (or zsh) terminal, follow these steps:
 
-- Create a environment (here we call it `mss` for the name of the symposium) and install all dependencies:
+- Create a conda environment (here we call it `mss` for the name of the symposium) and install `python=3.8` and `obspy`:
 
 ```bash
 conda create -n mss python=3.8 obspy -c conda-forge
@@ -54,7 +54,7 @@ Now you're ready to install `obstools`. There are two options: 1) you want to lo
 
 - Navigate on the command line to a path where the software will be installed
 
-- Clone the `obstools` repository (`fork` it first, if you are serious about contributing):
+- Clone the `obstools` repository ([`fork`](https://docs.github.com/en/github/getting-started-with-github/fork-a-repo) it first, if you are serious about contributing):
 
 ```bash
 git clone https://github.com/paudetseis/OBStools.git
