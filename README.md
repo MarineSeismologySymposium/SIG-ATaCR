@@ -1,2 +1,75 @@
-# SIG-ATaCR
-Special Interest Group for the processing of broadband OBS data at the 2021 Marine Seismology Symposium
+# Special Interest Group on OBS Data Processing at the 2021 Marine Seismology Symposium
+
+---
+
+**Instructors**: [`Helen Janiszewski`](https://helenjaniszewski.squarespace.com) and [`Pascal Audet`](https://www.uogeophysics.com/authors/admin/)
+
+**When**: Wednesday, March 10, 2021 at 9 PM (GMT), 11 AM (HST = GMT - 10:00) 4 PM (EST = GMT - 5:00)
+
+**Where**: On zoom (link to follow)
+
+**What**: This SIG will provide hands-on tutorials to process broadband ocean-bottom seismic data using the Automatic Tilt and Comliance Removal (ATaCR) software. As the name suggests, this software was designed to automate (as best as possible) the process of correcting vertical component BBOBS data for contaminating noise effects due to instrument tilt and infra-gravity noise on the seafloor. The software is available in two languages: Matlab and Python. The session will first introduce common practice and pitfalls when working with noisy BBOBS data and perform basic quality control, then break out into two rooms where participants will follow live tutorials using ATaCR. 
+
+**How to prepare**: To streamline the live tutorial sessions, we ask participants to pre-register to either the Matlab or Python session and install ATaCR with demo data. Details are outlined below.
+
+---
+
+## Installing the Matlab version
+
+- Git repository: [`ATaCR`](https://github.com/helenjanisz/ATaCR)
+
+Documentation can be found [`here`](https://github.com/helenjanisz/ATaCR/blob/master/ATaCR_Manual.pdf)
+
+## Installing the Python version
+
+ATaCR is implemented as a separate module in the open-source Python package OBStools:
+
+- Git repository: [`OBStools`](https://github.com/nfsi-canada/OBStools)
+
+Documentation can be found [`here`](https://nfsi-canada.github.io/OBStools/)
+
+To install `obstools`, we recommend creating a `conda environment` where the code can be installed alongside its dependencies. This **significantly reduces** the potential conflicts in package versions. 
+
+- Create a environment (here we call it `mss` for the name of the symposium) and install all dependencies:
+
+```bash
+conda create -n mss python=3.8 obspy -c conda-forge
+```
+
+- Activate the environment:
+
+```bash
+conda activate mss
+```
+
+- Install the required `stdb` package using `pip`:
+
+```bash
+pip install stdb
+```
+
+Now you're ready to install `obstools`. There are two options: 1) you want to look at the source code and are considering contributing to the code (awesome!!); 2) you are only interested in using the code and not bother with the source.
+
+### 1) Installing from source
+
+- Navigate on the command line to a path where the software will be installed
+
+- Clone the `obstools` repository (`fork` it first, if you are serious about contributing):
+
+```bash
+git clone https://github.com/paudetseis/OBStools.git
+cd OBStools
+```
+
+- Install using `pip`:
+
+```bash
+pip install -e .
+```
+
+### 2) Installing from the Python Package Index (PyPI):
+
+```bash
+pip install obstools
+```
+
