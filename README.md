@@ -8,7 +8,7 @@
 
 **Where**: On zoom (link to follow)
 
-**What**: This SIG will provide hands-on tutorials to process broadband ocean-bottom seismic (BBOBS) data using the Automatic Tilt and Comliance Removal (ATaCR) software. As the name suggests, this software was designed to automate (as best as possible) the process of correcting vertical component BBOBS data for contaminating noise effects due to instrument tilt and infra-gravity noise on the seafloor. The software is available in two languages: Matlab and Python. The session will first introduce common practice and pitfalls when working with noisy BBOBS data and perform basic quality control, then break out into two rooms where participants will follow live tutorials using ATaCR. 
+**What**: This SIG will provide hands-on tutorials to process broadband ocean-bottom seismic (BBOBS) data using the Automatic Tilt and Comliance Removal (ATaCR, pronounced "attacker") software. As the name suggests, this software was designed to automate (as best as possible) the process of correcting vertical component BBOBS data for contaminating noise effects due to instrument tilt and infra-gravity noise on the seafloor. The software is available in two languages: Matlab and Python. The session will first introduce common practice and pitfalls when working with noisy BBOBS data and perform basic quality control, then break out into two rooms where participants will follow live tutorials using ATaCR. 
 
 **How to prepare**: To streamline the live tutorial sessions, we ask participants to pre-register to either the Matlab or Python session and install ATaCR with demo data. Details are outlined below.
 
@@ -19,6 +19,19 @@
 - Git repository: [`ATaCR`](https://github.com/helenjanisz/ATaCR)
 
 Documentation can be found [`here`](https://github.com/helenjanisz/ATaCR/blob/master/ATaCR_Manual.pdf)
+
+To install the Matlab version of ATaCR, navigate on the command line to a path where the software will be installed
+
+- Clone the `atacr` repository ([`fork`](https://docs.github.com/en/github/getting-started-with-github/fork-a-repo) it first, if you consider contributing):
+
+```bash
+git clone https://github.com/helenjanisz/ATaCR
+cd ATaCR
+```
+
+You are ready to go!
+
+---
 
 ### Installing the Python version
 
