@@ -2,7 +2,7 @@
 
 ---
 
-**Instructors**: [`Helen Janiszewski`](https://helenjaniszewski.squarespace.com) and [`Pascal Audet`](https://www.uogeophysics.com/authors/admin/)
+**Instructors**: [Helen Janiszewski](https://helenjaniszewski.squarespace.com) and [Pascal Audet](https://www.uogeophysics.com/authors/admin/)
 
 **When**: Wednesday, March 10, 2021 at 9 PM (GMT), 11 AM (HST = GMT - 10:00) 4 PM (EST = GMT - 5:00)
 
@@ -16,13 +16,13 @@
 
 ### Installing the Matlab version
 
-- Git repository: [`ATaCR`](https://github.com/helenjanisz/ATaCR)
+- Git repository: [ATaCR](https://github.com/helenjanisz/ATaCR)
 
-- Documentation can be found [`here`](https://github.com/helenjanisz/ATaCR/blob/master/ATaCR_Manual.pdf)
+- Documentation can be found [here](https://github.com/helenjanisz/ATaCR/blob/master/ATaCR_Manual.pdf)
 
 To install the Matlab version of ATaCR, navigate on the command line to a path where the software will be installed
 
-- Clone the ATaCR repository ([`fork`](https://docs.github.com/en/github/getting-started-with-github/fork-a-repo) it first, if you consider contributing):
+- Clone the ATaCR repository ([fork](https://docs.github.com/en/github/getting-started-with-github/fork-a-repo) it first, if you consider contributing):
 
 ```bash
 git clone https://github.com/helenjanisz/ATaCR
@@ -37,11 +37,11 @@ You are ready to go!
 
 ATaCR is implemented as a separate module in the open-source Python package OBStools:
 
-- Git repository: [`OBStools`](https://github.com/nfsi-canada/OBStools)
+- Git repository: [OBStools](https://github.com/nfsi-canada/OBStools)
 
-- Documentation can be found [`here`](https://nfsi-canada.github.io/OBStools/)
+- Documentation can be found [here](https://nfsi-canada.github.io/OBStools/)
 
-To install `obstools`, we strongly recommend creating a `conda environment` where the code can be installed alongside its dependencies. This **significantly reduces** the potential conflicts in package versions. In a bash (or zsh) terminal, follow these steps:
+To install `obstools`, we strongly recommend creating a `conda` environment where the code can be installed alongside its dependencies. This **significantly reduces** the potential conflicts in package versions. In a bash (or zsh) terminal, follow these steps:
 
 - Create a conda environment (here we call it `mss` for the name of the symposium) and install `python=3.8` and `obspy`:
 
@@ -67,7 +67,7 @@ Now you're ready to install `obstools`. There are two options: 1) you want to lo
 
 - Navigate on the command line to a path where the software will be installed
 
-- Clone the OBStools repository ([`fork`](https://docs.github.com/en/github/getting-started-with-github/fork-a-repo) it first, if you are serious about contributing):
+- Clone the OBStools repository ([fork](https://docs.github.com/en/github/getting-started-with-github/fork-a-repo) it first, if you are serious about contributing):
 
 ```bash
 git clone https://github.com/paudetseis/OBStools.git
@@ -121,4 +121,4 @@ Then type:
 >>> import obstools
 ```
 
-If nothing happens, you're good to go! If you run into a problem, let us know by [`raising an issue`](https://github.com/MarineSeismologySymposium/SIG-ATaCR/issues). 
+If nothing happens, you're good to go! If you run into a problem, let us know by [raising an issue](https://github.com/MarineSeismologySymposium/SIG-ATaCR/issues). 
