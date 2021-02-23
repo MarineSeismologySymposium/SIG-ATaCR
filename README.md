@@ -1,4 +1,4 @@
-# Special Interest Group on OBS Data Processing at the 2021 Marine Seismology Symposium
+## Special Interest Group on OBS Data Processing at the 2021 Marine Seismology Symposium
 
 ---
 
@@ -8,9 +8,9 @@
 
 **Where**: On zoom (link to follow)
 
-**What**: This SIG will provide hands-on tutorials to process broadband ocean-bottom seismic (BBOBS) data using the Automatic Tilt and Comliance Removal (ATaCR, pronounced "attacker") software. As the name suggests, this software was designed to automate (as best as possible) the process of correcting vertical component BBOBS data for contaminating noise effects due to instrument tilt and infra-gravity noise on the seafloor. The software is available in two languages: Matlab and Python. The session will first introduce common practice and pitfalls when working with noisy BBOBS data and perform basic quality control, then break out into two rooms where participants will follow live tutorials using ATaCR. 
+**What**: This SIG will provide hands-on tutorials to process broadband ocean-bottom seismic (BBOBS) data using the Automatic Tilt and Comliance Removal (ATaCR, pronounced "attacker") software. This software is designed to automate, as best as possible, the process of characterizing and removing tilt and compliance noise from vertical component BBOBS data. The software is available in two scripting languages: Matlab and Python. The session will first introduce common practices and pitfalls when working with noisy BBOBS data and perform basic quality control, then break out into two separate rooms where participants will follow live tutorials using ATaCR. 
 
-**How to prepare**: To streamline the live tutorial sessions, we ask participants to pre-register to either the Matlab or Python session and install ATaCR with demo data. Details are outlined below.
+**How to prepare**: To ensure that the live tutorial sessions run seamlessly, we ask participants to pre-register to either the Matlab or Python session and install ATaCR with demo data. Details are outlined below.
 
 ---
 
@@ -41,7 +41,7 @@ ATaCR is implemented as a separate module in the open-source Python package OBSt
 
 - Documentation can be found [here](https://nfsi-canada.github.io/OBStools/)
 
-To install `obstools`, we strongly recommend creating a `conda` environment where the code can be installed alongside its dependencies. This **significantly reduces** the potential conflicts in package versions. In a bash (or zsh) terminal, follow these steps:
+To install `obstools`, we strongly recommend installing and creating a `conda` environment (either from the [Anaconda](https://anaconda.org) distribution or [mini-conda](https://docs.conda.io/en/latest/miniconda.html)) where the code can be installed alongside its dependencies. This **significantly reduces** the potential conflicts in package versions. In a bash (or zsh) terminal, follow these steps:
 
 - Create a conda environment (here we call it `mss` for the name of the symposium) and install `python=3.8` and `obspy`:
 
@@ -61,9 +61,9 @@ conda activate mss
 pip install stdb
 ```
 
-Now you're ready to install `obstools`. There are two options: 1) you want to look at the source code and are considering contributing to the code (awesome!!); 2) you are only interested in using the code and not bother with the source.
+Now you're ready to install `obstools`. You might consider one of two options: 1) you want to look at the source code and are considering contributing (awesome!!); 2) you are only interested in using the software and are not interested in the source code.
 
-#### 1) Installing from source
+#### 1) Developer mode: Installing from source
 
 - Navigate on the command line to a path where the software will be installed
 
@@ -80,13 +80,13 @@ cd OBStools
 pip install -e .
 ```
 
-#### 2) Installing from the Python Package Index (PyPI):
+#### 2) User mode: Installing from the Python Package Index (PyPI):
 
 ```bash
 pip install obstools
 ```
 
-##### Getting the demo data
+### Getting the demo data
 
 Finally, download the demo data provided on this github repository by navigating to some work folder (where the data and results of the processing will be located) and typing:
 
@@ -97,7 +97,7 @@ cd SIG-ATaCR
 
 The `DATA` folder should now be on your computer and you are ready to start the tutorial!
 
-##### Testing your installation
+### Testing your installation
 
 If you want to make sure everything is installed properly, make sure your conda environment has been activated and open a python window by typing in a terminal:
 
