@@ -8,7 +8,7 @@
 
 **Where**: On zoom (link to follow)
 
-**What**: This SIG will provide hands-on tutorials to process broadband ocean-bottom seismic (BBOBS) data using the Automatic Tilt and Comliance Removal (ATaCR, pronounced "attacker") software. This software is designed to automate, as best as possible, the process of characterizing and removing tilt and compliance noise from vertical component BBOBS data. The software is available in two scripting languages: Matlab and Python. The session will first introduce common practices and pitfalls when working with noisy BBOBS data and perform basic quality control, then break out into two separate rooms where participants will follow live tutorials using ATaCR. 
+**What**: This SIG will provide hands-on tutorials to process broadband ocean-bottom seismic (BBOBS) data using the Automatic Tilt and Compliance Removal (ATaCR, pronounced "attacker") software. This software is designed to automate, as best as possible, the process of characterizing and removing tilt and compliance noise from vertical component BBOBS data. The software is available in two scripting languages: Matlab and Python. Both versions are open source, and installation instructions are described below. The session will first introduce common practices and pitfalls when working with noisy BBOBS data and perform basic quality control, then break out into two separate rooms where participants will follow live tutorials using ATaCR. 
 
 **How to prepare**: To ensure that the live tutorial sessions run seamlessly, we ask participants to pre-register to either the Matlab or Python session and install ATaCR with demo data. Details are outlined below.
 
