@@ -4,7 +4,7 @@
 
 **Instructors**: [Helen Janiszewski](https://helenjaniszewski.squarespace.com) and [Pascal Audet](https://www.uogeophysics.com/authors/admin/)
 
-**When**: Wednesday, March 10, 2021 at 9 PM (GMT), 11 AM (HST = GMT - 10:00) 4 PM (EST = GMT - 5:00)
+**When**: Wednesday, March 10, 2021 at 9 PM (GMT). *Note*, this is 11 AM in Honolulu (HST = GMT - 10:00) and 4 PM in Ottawa (EST = GMT - 5:00)
 
 **Where**: On zoom (link to follow)
 
