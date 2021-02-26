@@ -86,17 +86,6 @@ pip install -e .
 pip install obstools
 ```
 
-### Getting the demo data
-
-Finally, download the demo data provided on this github repository by navigating to some work folder (where the data and results of the processing will be located) and typing:
-
-```bash
-git clone https://github.com/MarineSeismologySymposium/SIG-ATaCR
-cd SIG-ATaCR
-```
-
-The `DATA` folder should now be on your computer and you are ready to start the tutorial!
-
 ### Testing your installation
 
 If you want to make sure everything is installed properly, make sure your conda environment has been activated and open a python window by typing in a terminal:
@@ -122,3 +111,17 @@ Then type:
 ```
 
 If nothing happens, you're good to go! If you run into a problem, let us know by [raising an issue](https://github.com/MarineSeismologySymposium/SIG-ATaCR/issues). 
+
+---
+
+### Getting the demo data
+
+Finally, download the demo data provided on this github repository by navigating to some work folder (where the data and results of the processing will be located) and typing:
+
+```bash
+git clone https://github.com/MarineSeismologySymposium/SIG-ATaCR
+cd SIG-ATaCR
+```
+
+The `DATA` folder should now be on your computer and you are ready to start the tutorial!
+
