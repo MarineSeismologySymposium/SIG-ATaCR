@@ -123,5 +123,5 @@ git clone https://github.com/MarineSeismologySymposium/SIG-ATaCR
 cd SIG-ATaCR
 ```
 
-The `DATA` folder should now be on your computer and you are ready to start the tutorial!
+The `DATA` and `EVENTS` folders should now be on your computer and you are ready to start the tutorial!
 
