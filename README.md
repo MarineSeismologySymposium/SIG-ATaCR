@@ -1,6 +1,5 @@
 ## Special Interest Group on OBS Data Processing at the 2021 Marine Seismology Symposium
 
----
 
 **Instructors**: [Helen Janiszewski](https://helenjaniszewski.squarespace.com) and [Pascal Audet](https://www.uogeophysics.com/authors/admin/)
 
