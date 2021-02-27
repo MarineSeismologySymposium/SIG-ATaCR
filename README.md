@@ -6,11 +6,11 @@
 
 **When**: Wednesday, March 10, 2021 at 9 PM (GMT). *Note*, this is 11 AM in Honolulu (HST = GMT - 10:00) and 4 PM in Ottawa (EST = GMT - 5:00)
 
-**Where**: On zoom (link to follow)
+**Where**: On zoom (link available via Marine Seismology Symposium pathables registration)
 
 **What**: This SIG will provide hands-on tutorials to process broadband ocean-bottom seismic (BBOBS) data using the Automatic Tilt and Compliance Removal (ATaCR, pronounced "attacker") software. This software is designed to automate, as best as possible, the process of characterizing and removing tilt and compliance noise from vertical component BBOBS data. The software is available in two scripting languages: Matlab and Python. Both versions are open source, and installation instructions are described below. The session will first introduce common practices and pitfalls when working with noisy BBOBS data and perform basic quality control, then break out into two separate rooms where participants will follow live tutorials using ATaCR. 
 
-**How to prepare**: To ensure that the live tutorial sessions run seamlessly, we ask participants to pre-register to either the Matlab or Python session and install ATaCR with demo data. Details are outlined below.
+**How to prepare**: To ensure that the live tutorial sessions run seamlessly, we ask participants to pre-register to either the Matlab or Python session via pathables and install ATaCR with demo data. Details are outlined below.
 
 ---
 
@@ -28,6 +28,17 @@ To install the Matlab version of ATaCR, navigate on the command line to a path w
 git clone https://github.com/helenjanisz/ATaCR
 cd ATaCR
 ```
+
+### Getting and preparing the demo data
+
+Download the demo data provided on this github repository by navigating from a terminal to some work folder and typing:
+
+```bash
+git clone https://github.com/MarineSeismologySymposium/SIG-ATaCR
+cd SIG-ATaCR
+```
+
+The `DATA`, `EVENTS`, and `Matlab_Setup` folders should now be on your computer. Prior to the start of the workshop, move these into your main ATaCR directory, and run `ATaCRSIG_matlabsetup.m` to set up the file and folder structure appropriately.
 
 You are ready to go!
 
@@ -63,7 +74,7 @@ pip install stdb
 
 Now you're ready to install `obstools`. You might consider one of two options: 1) you want to look at the source code and are considering contributing (awesome!!); 2) you are only interested in using the software and are not interested in the source code.
 
-#### 1) Developer mode: Installing from source
+##### 1) Developer mode: Installing from source
 
 - Navigate on the command line to a path where the software will be installed
 
@@ -80,11 +91,22 @@ cd OBStools
 pip install -e .
 ```
 
-#### 2) User mode: Installing from the Python Package Index (PyPI):
+##### 2) User mode: Installing from the Python Package Index (PyPI):
 
 ```bash
 pip install obstools
 ```
+
+### Getting the demo data
+
+Finally, download the demo data provided on this github repository by navigating to some work folder (where the data and results of the processing will be located) and typing:
+
+```bash
+git clone https://github.com/MarineSeismologySymposium/SIG-ATaCR
+cd SIG-ATaCR
+```
+
+The `DATA` and `EVENTS` folders should now be on your computer and you are ready to start the tutorial.
 
 ### Testing your installation
 
@@ -111,17 +133,4 @@ Then type:
 ```
 
 If nothing happens, you're good to go! If you run into a problem, let us know by [raising an issue](https://github.com/MarineSeismologySymposium/SIG-ATaCR/issues). 
-
----
-
-### Getting the demo data
-
-Finally, download the demo data provided on this github repository by navigating to some work folder (where the data and results of the processing will be located) and typing:
-
-```bash
-git clone https://github.com/MarineSeismologySymposium/SIG-ATaCR
-cd SIG-ATaCR
-```
-
-The `DATA` and `EVENTS` folders should now be on your computer and you are ready to start the tutorial!
 
