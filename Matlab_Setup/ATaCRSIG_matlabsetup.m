@@ -17,7 +17,7 @@ download_stations = textread('./NOISETC_CI/stalist.txt','%s'); % list of station
 chz_vec = 'BHZ'; % list of acceptable names for Z component
 ch1_vec = 'BH1'; % list of acceptable names for H1 component
 ch2_vec = 'BH2'; % list of acceptable names for H2 component
-chp_vec = 'BHH'; % list of acceptable names for P component
+chp_vec = 'BDH'; % list of acceptable names for P component
 
 datacache = 'NOISETC_CI/DATA/datacache_day'; % output folder for data
 
