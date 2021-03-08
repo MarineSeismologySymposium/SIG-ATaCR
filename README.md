@@ -37,7 +37,7 @@ git clone https://github.com/MarineSeismologySymposium/SIG-ATaCR
 cd SIG-ATaCR
 ```
 
-The `DATA`, `EVENTS`, and `Matlab_Setup` folders should now be on your computer. Prior to the start of the workshop, move these into your main ATaCR directory, and run `ATaCRSIG_matlabsetup.m` to set up the file and folder structure appropriately.
+The `DATA`, `EVENTS`, and `Matlab_Setup` folders should now be on your computer. Prior to the start of the workshop, move these and the contents of Matlab_Setup into your main ATaCR directory, and run `ATaCRSIG_matlabsetup.m` to set up the file and folder structure appropriately.
 
 You are ready to go!
 

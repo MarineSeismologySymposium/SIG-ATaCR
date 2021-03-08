@@ -91,12 +91,6 @@ if ~exist(datacache,'dir')
 end
 startlist = textread(startlist,'%s');
 
-%Channel Names
-chz_vec = 'Z'; % list of acceptable names for Z component
-ch1_vec = '1'; % list of acceptable names for H1 component
-ch2_vec = '2'; % list of acceptable names for H2 component
-chp_vec = 'P'; % list of acceptable names for P component
-
 for id = 1:length(startlist)
    eventid = cell2mat(startlist(id));
    disp(sprintf('Start Time: %s',eventid));
