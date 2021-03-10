@@ -45,6 +45,8 @@ You are ready to go!
 
 ### Installing the Python version
 
+*Note!! See the video showing how to install `OBStools` [here](https://www.dropbox.com/s/fsxbzvob8o2vekq/MSS2021_SIG_Python_Installation.mp4?dl=0)* 
+
 ATaCR is implemented as a separate module in the open-source Python package OBStools:
 
 - Git repository: [OBStools](https://github.com/nfsi-canada/OBStools)
